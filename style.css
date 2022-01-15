@@ -249,6 +249,36 @@ color: tomato;
 }
 
 
+
+}
+
+@media (min-width:688px) and (max-width:811px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .contenar{
+       
+
+        width: 500px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .laptop{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .laptop-img img{
+        width: 300px;
+    }
+    .laptop-dittels{
+        width: 300px;
+        margin-left: 40px;
+    }
+   
 }
 
 
