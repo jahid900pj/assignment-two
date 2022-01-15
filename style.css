@@ -169,6 +169,30 @@ color: tomato;
 
 
 
+/* -----last----- */
+
+.last{
+    text-align: center;
+    color: white;
+    background-color: #0A0826;
+    line-height: 15px;
+}
+
+.last h2{
+   padding-top: 50px;
+   font-size: 2em;
+}
+
+.last-icon i{
+    font-size: 1.5em;
+    padding: 8px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+
 
 
 
