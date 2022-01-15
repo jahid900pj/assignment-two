@@ -1,0 +1,133 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+/* ------header------ */
+
+.header{
+    /* margin-left: 12% ;
+    margin-top: 12%; */
+    margin: 10%;
+}
+
+/* -----start journey----- */
+
+.contenar{
+    /* margin-left: 12% ;
+    margin-top: 12%; */
+    margin: 10%;
+    display: flex;
+    
+}
+
+.start-Journey{
+    width: 50%;
+}
+.start-Journey h1{
+    font-size: 3.5em;
+}
+.start-Journey p{
+font-weight: 500;
+margin-bottom: 40px;
+}
+.start-Journey a{
+    background-color: tomato;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    
+    
+}
+
+
+.start-Journey>a>i{
+    font-size:1.1em;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.start-Journey-img{
+    width: 50%;
+
+}
+.start-Journey-img img{
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+/* ------------
+contenar-middle------ */
+.contenar-middle{
+    margin-right: 12%;
+    margin-left: 12% ;
+    
+    
+}
+.Popular-Collection{
+    font-size: 2em;
+    text-align: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+.product{
+    background-color: whitesmoke;
+    width: 90%;
+    overflow: hidden;
+    
+    margin-top: 50px;
+    margin: 10%;
+   
+   border-radius: 10px;
+    
+}
+.product-img {
+margin: 6%;
+
+}
+.product-dittels{
+    margin: 6%;
+    width: 100%;
+}
+.product-dittels h3{
+    font-size: 1.6em;
+}
+
+.product-dittels span{
+    color: orange;
+    font-size: 0.8em;
+}
+#ratting{
+    font-size: 1em;
+    color: rgb(121, 121, 121);
+    margin-left: 5%;
+    font-weight: 700;
+}
+.see-more p>a{
+    text-decoration: none;
+color: tomato;
+}
+.see-more p{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
