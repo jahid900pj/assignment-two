@@ -192,6 +192,66 @@ color: tomato;
 
 
 
+/* --------responsiv phone */
+@media (max-width:688px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+   .header{
+       text-align: center;
+   }
+   .contenar{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+  align-items: center;
+  text-align: center;
+       margin: 0%;
+       padding: 0%;
+   }
+   .start-Journey{
+       
+       align-items: center;
+     
+       width: 399px;
+   }
+
+   .start-Journey a{
+    background-color: tomato;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 800;
+   
+   }
+   .start-Journey-img img{
+      width: 180%;
+      
+   }
+   .products{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   
+}
+.product{
+    width: 300px;
+    margin-left: -7px;
+    
+}
+.laptop{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.laptop-dittels{
+    width: 375px;
+}
+
+
+}
+
+
 
 
 
